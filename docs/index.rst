@@ -3,12 +3,32 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to MoWAKi's documentation!
+MoWAKi: modern web application kit
 ==================================
+
+Python, React, GraphQL. **Batteries included.**
+-----------------------------------------------
+
+Get started quickly building modern web applications with Python, React, and GraphQL.
+
+Build applications, not build systems.
+
+
+Visit `mowaki.org`_ for more information about the project.
+
+
+.. _mowaki.org: https://www.mowaki.org/
+
+
+Complete documentation
+----------------------
+
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+
+   quickstart
+   recipes
 
 
 

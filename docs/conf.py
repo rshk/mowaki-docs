@@ -79,8 +79,28 @@ html_theme = 'alabaster'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#
-# html_theme_options = {}
+
+html_theme_options = {
+    'logo': 'icon-256x256.png',
+    'logo_name': True,
+    'logo_text_align': 'center',
+
+    'description': """
+    <p style="text-align: center">
+        <strong>Modern Web Application Kit.</strong><br/>
+        Quickly build applications with Python, React and GraphQL.<br/>
+    </p>
+    <p>
+        Homepage: <a href="https://mowaki.org">mowaki.org</a>.<br/>
+        Source code: <a href="https://github.com/rshk/mowaki">rshk/mowaki</a>.<br/>
+    </p>
+    """,
+
+
+    'github_user': 'rshk',
+    'github_repo': 'mowaki',
+    'github_button': True,
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
