@@ -92,10 +92,9 @@ html_theme_options = {
     </p>
     <p>
         Homepage: <a href="https://mowaki.org">mowaki.org</a>.<br/>
-        Source code: <a href="https://github.com/rshk/mowaki">rshk/mowaki</a>.<br/>
+        Repo: <a href="https://github.com/rshk/mowaki">rshk/mowaki</a>.<br/>
     </p>
     """,
-
 
     'github_user': 'rshk',
     'github_repo': 'mowaki',
