@@ -99,6 +99,9 @@ html_theme_options = {
     'github_user': 'rshk',
     'github_repo': 'mowaki',
     'github_button': True,
+
+    'head_font_family': 'Alegreya sans, sans-serif',
+    'font_family': 'Alegreya, serif',
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
