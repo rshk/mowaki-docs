@@ -7,6 +7,11 @@ verify_ssl = true
 
 [packages]
 sphinx = "*"
+sphinx-autobuild = "*"
 
 [requires]
 python_version = "3.7"
+
+[scripts]
+build = "sphinx-build docs build/html"
+autobuild = "sphinx-autobuild docs build/html --port 8010 --open-browser"
