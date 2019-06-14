@@ -21,7 +21,7 @@ Installation
 
 Install dependencies from NPM::
 
-    yarn add bootstrap reactstrap
+    npm install --save bootstrap reactstrap
 
 
 Then load the Boostrap CSS from ``src/index.js``:
